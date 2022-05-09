@@ -1,33 +1,34 @@
 package com.example.networking;
 
 public class Mountain {
-    private String nameOfMountain;
-    private String locationOfMountain;
-    private int heightOfMountain;
+
+    private String name;
+    private String location;
+    private int height;
 
     public String getName() {
-        return nameOfMountain;
+        return name;
     }
 
     public Mountain(){
-        nameOfMountain="Missing a name";
-        locationOfMountain="Missing the location";
-        heightOfMountain=0;
+        name="Missing name";
+        location="Missing location";
+        height=0;
     }
 
     public Mountain(String n, String l, int h){
-        nameOfMountain = n;
-        locationOfMountain=l;
-        heightOfMountain=h;
+        name = n;
+        location=l;
+        height=h;
     }
 
     public String info(){
         String tmp= new String();
-        tmp+=nameOfMountain+" Is in the location: " + locationOfMountain + " and is " + heightOfMountain + "meters above the sea.";
+        tmp+=name+" is located in " + location + " the height is " + height + "meters above the sea.";
         return tmp;
     }
 
     public String toString(){
-        return nameOfMountain;
+        return name;
     }
 }
