@@ -12,7 +12,7 @@ public class Mountain {
 
     public Mountain(){
         name="Missing name";
-        location="Missing location";
+        location="missing location";
         height=0;
     }
 
@@ -24,7 +24,7 @@ public class Mountain {
 
     public String info(){
         String tmp= new String();
-        tmp+=name+" is located in " + location + " the height is " + height + "meters above the sea.";
+        tmp+=name+" is located in " + location + " is " + height + "meters above sea level.";
         return tmp;
     }
 
