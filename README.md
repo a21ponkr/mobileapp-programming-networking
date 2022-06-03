@@ -89,6 +89,6 @@ public class Mountain {
 }
 ```
 
-Bild på appen
+Bild på appen med berg.
 
 ![](networkingapp.png)
